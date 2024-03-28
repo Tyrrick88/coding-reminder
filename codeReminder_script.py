@@ -1,5 +1,6 @@
 import time
 from plyer import notification
+import gmailConfig
 
 def remind_to_code():
     notification_title = "Coding Reminder"
@@ -22,7 +23,8 @@ if __name__ == "__main__":
 
         # Check if it's time to remind
         if current_time == reminder_time:
-            remind_to_code()
+            gmailConfig(remind_to_code)
+            print("Email sent!")
 
         # Sleep for a minute before checking again
         time.sleep(60)

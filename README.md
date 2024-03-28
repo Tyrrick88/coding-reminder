@@ -36,7 +36,3 @@ This will ensure that the `remind_to_code` function works as expected.
 
 Feel free to contribute to the project by opening issues or pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
